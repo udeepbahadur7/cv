@@ -1,0 +1,234 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx}
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Udeep}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Shrestha}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge Full Stack Developer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.30\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{Thimi, Bhaktapur}\\
+	\icon{Phone}{12}{+977 984932465}\\
+	\icon{At}{12}{\href{mailto:udeepbahadur7@gmail.com}{udeepbahadur7@gmail.com}}\\	
+\end{minipage}
+\begin{minipage}[t]{0.30\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	
+	\icon{Github}{12}{\href{https://github.com/alyxvance}{github.com/udeepbahadur7}}\\
+	\icon{Twitter}{12}{\href{https://twitter.com/@ShresthaUdeep}{@ShresthaUdeep}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	I'm a people person and dependable team player. I'm the kind of person who knows how to execute tasks with precision. I pay attention to all the details of a project. 
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{JavaScript}{60}
+		\baritem{Python}{60}
+		\baritem{Django}{80}
+		\baritem{Bootstrap}{60}
+		\baritem{Material-ui}{60}
+		\baritem{React}{75}
+		\baritem{Redux}{75}
+		\baritem{Git}{60}
+		\baritem{Docker}{30}
+		\baritem{Laravel}{40}
+	\end{barchart}
+\end{minipage}
+
+\begin{center}
+	\bubbles{5/WebStorm, 5/git, 5/VSCode, 5/PyCharm}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\cvsect{Bachelor's level Projects}
+\begin{entryList}
+    \entry
+    {
+        Major Project
+    }
+    {
+        Project Automated Facial Expression Analysis and
+Recognition\\
+    }
+    {
+    }
+    {
+        Using publicly available datasets we applied PCA and LBP as feature extractors and SVM and CNN as classifiers to analyse their suitability for recognition. The range of expressions is limited to seven kinds:happy, sad, surprise, disgust, fear, disgust and neutral.\\
+        \texttt{Python}\slashsep\texttt{scikit-learn}
+    }
+    
+    \entry
+    {
+        Minor Project
+    }
+    {
+        EPL Predictor\\
+    }
+    {
+    }
+    {
+        We used supervised learning
+methods(Neural Network, KNN) to
+predict the results of the games of
+english premier league and also to
+compare between the accuracy of
+the used methods.   \\
+        \texttt{Python}\slashsep\texttt{scikit-learn}
+    }
+\end{entryList}
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{01/2018 -- 05/2018}
+		{Full Stack Developer}
+		{www.infiniabiz.com}
+    		{
+    InfiniaBiz is a business productivity tool, enabling companies to increase sales, revenue and profits. Companies can send purchase RFQs to vendors and vendors can reply to those RFQs.\\ 
+    		    \texttt{React}\slashsep\texttt{Django}\slashsep\texttt{CSS}\slashsep\textt{Docker}}
+	\entry
+		{05/2018 -- 08/2018\\\footnotesize{}}
+		{Django Developer}
+		{www.infiniasmart.com}
+		{
+		    InfiniaSmart is a Wifi-marketing application. Customers logging into the wifi in hotels, restaurants are shown their promotional items before logging in. Restaurant owner can view their wifi usage, customer details and also send sms on special occasion\\
+		    \texttt{Vue.js}\slashsep\texttt{Django}
+		}
+	\entry
+		{07/2018 -- 08/2018\\\footnotesize{part time}}
+		{Laravel Developer}
+		{}
+		{
+		   A freelance project I had completed for Australian University. I had to admin panel and forms in Laravel\\ \texttt{PHP}\slashsep\texttt{Laravel}
+		}
+	\entry
+	    {09/2018 -- 03/2018}
+	    {Full Stack Developer}
+	    {}
+	    {
+	        Inventory Management System where organization can track their stocks, sales and purchases.\\
+	        \texttt{Django}\slashsep\textt{Django Rest Framework}\slashsep\textt{React}\slashsep\textt{Redux Saga}
+	    }
+	    
+	 \entry{04/2019 -- 05/2019}{Django Developer}{}
+	    {Seat reserving and payment system using seats.io and stripe API
+	        \texttt{Django}\slashsep\textt{Django template}\slashsep\textt{Seats.io API}\slashsep\textt{Stripe API}
+	    }
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2012}
+		{Bachelor's Degree}
+		{Pulchowk Campus}
+	    {Computer Engineering}
+	\entry
+		{2009 -- 2012}
+		{+2}
+		{St. Xavier's College, Maitighar}
+		{physics, chemistry, maths, biology}
+	\entry
+		{2009}
+		{School Leaving Certificate}
+		{Naulo Jyoti English School}
+		{}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{Nepali} - native\\
+	\textbf{Newari} - proficient\\
+	\textbf{Engilish} - proficient\\
+	\textbf{Hindi} -rudimentary
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Hobbies}
+	
+	I love playing football, travelling and exploring new programming concepts.
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Interests}
+	
+	Docker, Angular JS, MongoDB, Big Data and technologies
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

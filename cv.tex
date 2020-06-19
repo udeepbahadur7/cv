@@ -15,7 +15,7 @@
 % The MIT License (see included LICENSE file)
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{graphicx}
+
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
@@ -30,7 +30,7 @@
 %	TITLE AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+\begin{minipage}[t]{0.40\textwidth} % 45% of the page width for name
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
 	% If your name is very short, use just one of the lines below
@@ -43,21 +43,20 @@
 	
 	{\huge Full Stack Developer} % Career or current job title
 \end{minipage}
-\begin{minipage}[t]{0.30\textwidth} % 27.5% of the page width for the first row of icons
+\begin{minipage}[t]{0.3\textwidth} % 27.5% of the page width for the first row of icons
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
 	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
 	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	\icon{MapMarker}{12}{Thimi, Bhaktapur}\\
+	\icon{MapMarker}{12}{Kathmandu, Nepal}\\
 	\icon{Phone}{12}{+977 9849324652}\\
 	\icon{At}{12}{\href{mailto:udeepbahadur7@gmail.com}{udeepbahadur7@gmail.com}}\\	
 \end{minipage}
-\begin{minipage}[t]{0.30\textwidth} % 27.5% of the page width for the second row of icons
+\begin{minipage}[t]{0.3\textwidth} % 27.5% of the page width for the second row of icons
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
 	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
 	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	
 	\icon{Github}{12}{\href{https://github.com/udeepbahadur7}{github.com/udeepbahadur7}}\\
 	\icon{Twitter}{12}{\href{https://twitter.com/@ShresthaUdeep}{@ShresthaUdeep}}\\
 \end{minipage}
@@ -72,95 +71,60 @@
 
 \begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
 	I'm a people person and dependable team player. I'm the kind of person who knows how to execute tasks with precision. I pay attention to all the details of a project so that project is completed in time. 
 \end{minipage}
 \hfill % Whitespace between
 \begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	\begin{barchart}{5.5}
-		\baritem{JavaScript}{60}
-		\baritem{Python}{60}
-		\baritem{Django}{80}
-		\baritem{Bootstrap}{60}
-		\baritem{Material-ui}{60}
-		\baritem{React}{75}
-		\baritem{Redux}{75}
+		\baritem{JavaScript}{80}
+		\baritem{Python}{80}
+		\baritem{Docker}{70}
+		\baritem{Nginx}{70}
+		\baritem{CSS}{50}
+		\baritem{Material UI}{70}
 		\baritem{Git}{60}
-		\baritem{Docker}{30}
-		\baritem{Laravel}{40}
+		\baritem{Django}{80}
+		\baritem{React}{80}
 	\end{barchart}
 \end{minipage}
 
 \begin{center}
-	\bubbles{5/WebStorm, 5/git, 5/VSCode, 5/PyCharm}
+	\bubbles{6/PyCharm, 6/Webstorm, 6/git, 6/VS Code, 6/Vim}
 \end{center}
 
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE
 %----------------------------------------------------------------------------------------
-\cvsect{Bachelor's level Projects}
-\begin{entryList}
-    \entry
-    {
-        Major Project
-    }
-    {
-        Project Automated Facial Expression Analysis and
-Recognition\\
-    }
-    {
-    }
-    {
-        Using publicly available datasets we applied PCA and LBP as feature extractors and SVM and CNN as classifiers to analyse their suitability for recognition. The range of expressions is limited to seven kinds:happy, sad, surprise, disgust, fear, disgust and neutral.\\
-        \texttt{Python}\slashsep\texttt{scikit-learn}
-    }
-    
-    \entry
-    {
-        Minor Project
-    }
-    {
-        EPL Predictor\\
-    }
-    {
-    }
-    {
-        We used supervised learning
-methods(Neural Network, KNN) to
-predict the results of the games of
-english premier league and also to
-compare between the accuracy of
-the used methods.   \\
-        \texttt{Python}\slashsep\texttt{scikit-learn}
-    }
-\end{entryList}
+
 \cvsect{Experience}
 
 \begin{entrylist}
-	\entry
-		{01/2018 -- 05/2018}
+\entry
+		{Nov 2017 -- May 2018}
 		{Full Stack Developer}
 		{www.infiniabiz.com}
     		{
     InfiniaBiz is a business productivity tool, enabling companies to increase sales, revenue and profits. Companies can send purchase RFQs to vendors and vendors can reply to those RFQs.\\ 
     		    \texttt{React}\slashsep\textt{Redux}\slashsep\texttt{Django}\slashsep\texttt{CSS}\slashsep\textt{Docker}\slashsep\textt{Nginx}\slashsep\textt{Digital Ocean}}
 	\entry
-		{05/2018 -- 08/2018\\\footnotesize{}}
+		{May 2018 -- Aug 2018\\\footnotesize{}}
 		{Django Developer}
 		{www.infiniasmart.com}
 		{
 		    InfiniaSmart is a Wifi-marketing application. Customers logging into the wifi in hotels, restaurants are shown their promotional items before logging in. Restaurant owner can view their wifi usage, customer details and also send sms on special occasion\\
-		    \texttt{Vue.js}\slashsep\texttt{Django}\slashsep\textt{Docker}\slashsep\textt{Nginx}\slashsep\textt{Digital Ocean}
+		    \texttt{Vue.js}\slashsep\texttt{Node.js}\slashsep\textt{Docker}\slashsep\textt{Nginx}\slashsep\textt{Digital Ocean}
 		}
 	\entry
-		{07/2018 -- 08/2018\\\footnotesize{part time}}
+		{July 2018 -- Aug 2018\\\footnotesize{}}
 		{Laravel Developer}
 		{}
 		{
-		   A freelance project I had completed for Australian University. I had to admin panel and forms in Laravel\\ \texttt{PHP}\slashsep\texttt{Laravel}
+		   A freelance project I had completed for Australian University. I had to build admin panel and forms in Laravel\\ \texttt{PHP}\slashsep\texttt{Laravel}
 		}
 	\entry
-	    {09/2018 -- 03/2018}
+	    {Sept 2018 -- March 2018}
 	    {Full Stack Developer}
 	    {}
 	    {
@@ -168,10 +132,30 @@ the used methods.   \\
 	        \texttt{Django}\slashsep\textt{Django Rest Framework}\slashsep\textt{React\slashsep\textt{Redux}}\slashsep\textt{Redux Saga}
 	    }
 	    
-	 \entry{04/2019 -- 05/2019}{Django Developer}{}
+	 \entry{May 2019 -- Sept 2019}{Django Developer}{}
 	    {Seat reserving and payment system using seats.io and stripe API\\
 	        \texttt{Django}\slashsep\textt{Django template}\slashsep\textt{Seats.io API}\slashsep\textt{Stripe API}
 	    }
+	    
+	  \entry
+		 {Nov 2018 -- May 2019}
+		{Senior Full Stack Developer}
+		{jhilkoinc.com}
+		{
+		During this period, my responsibilities were choosing right software stack for the vehicle tracking system, mentoring the team members in learning the software stack, planning and executing the sprints, reporting weekly progress to CEO and developing dev-tools to help improve team’s productivity. I worked on ReactJs and react-native to build web applications and mobile applications using Javascript.
+
+		
+		\\ \texttt{Express}\slashsep\texttt{React}\slashsep\texttt{Bootstrap}\slashsep\texttt{React Native}\slashsep\texttt{MongoDB}\slashsep\texttt{MongoDB}\slashsep\texttt{Socket.io}\slashsep\texttt{GitLab}}
+		
+		
+	  \entry
+		 {July 02, 2019 -- present}
+		{Senior Full Stack Developer}
+		{services.khalti.com}
+		{
+		During this period, my role was intergrating new thirdparty services and migrating existing AngularJS applications to React.
+		
+		\\ \texttt{Django}\slashsep\texttt{React Hooks}\slashsep\texttt{Material UI}\slashsep\texttt{Docker}\slashsep\texttt{Nginx}\slashsep\texttt{Postgres}}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
@@ -182,20 +166,20 @@ the used methods.   \\
 
 \begin{entrylist}
 	\entry
-		{2012}
+		{2012-2016}
 		{Bachelor's Degree}
-		{Pulchowk Campus}
-	    {Computer Engineering}
+		{Pulchowk Campus, Pulchowk, Kathmandu}
+		{Computer Engineering}
 	\entry
-		{2009 -- 2012}
+		{2009 -- 2011}
 		{+2}
-		{St. Xavier's College, Maitighar}
+		{St. Xavier's College, Maitighar, Kathmandu}
 		{physics, chemistry, maths, biology}
 	\entry
 		{2009}
 		{School Leaving Certificate}
-		{Naulo Jyoti English School}
-		{}
+		{Naulo Jyoti English School, Thimi, Bhaktapur}
+		{\lorem\lorem}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
@@ -208,8 +192,8 @@ the used methods.   \\
 	\cvsect{Languages}
 	
 	\textbf{Nepali} - native\\
+	\textbf{English} - proficient\\
 	\textbf{Newari} - proficient\\
-	\textbf{Engilish} - proficient\\
 	\textbf{Hindi} -rudimentary
 \end{minipage}
 \hfill
@@ -226,7 +210,7 @@ the used methods.   \\
 	
 	\cvsect{Interests}
 	
-	Docker, Angular JS, MongoDB, Big Data and technologies
+	Big Data and Machine Learning. Currenly learning Flutter in free time.
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
